@@ -1,0 +1,161 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AlienProject
+build_property.RootNamespace = AlienProject
+build_property.ProjectDir = C:\Users\Myroslav\Downloads\Telegram Desktop\BDProject-master\BDProject-master\AlienProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Myroslav\Downloads\Telegram Desktop\BDProject-master\BDProject-master\AlienProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Abduction/Abduction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJkdWN0aW9uXEFiZHVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Abduction/AbductionsPerMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJkdWN0aW9uXEFiZHVjdGlvbnNQZXJNb250aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Abduction/Find.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJkdWN0aW9uXEZpbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Abduction/FindAlien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJkdWN0aW9uXEZpbmRBbGllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Abduction/FindAllHumans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJkdWN0aW9uXEZpbmRBbGxIdW1hbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Abduction/FindDifferentAliens.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJkdWN0aW9uXEZpbmREaWZmZXJlbnRBbGllbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Abduction/FindKilledAlien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJkdWN0aW9uXEZpbmRLaWxsZWRBbGllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Alien/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpZW5cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Alien/Aliens.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpZW5cQWxpZW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Alien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Alien/FindCommon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpZW5cRmluZENvbW1vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Authentication/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Excursion/Excursion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjdXJzaW9uXEV4Y3Vyc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Excursion/FindExcursionsForAlien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjdXJzaW9uXEZpbmRFeGN1cnNpb25zRm9yQWxpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Experiment/Experiments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpbWVudFxFeHBlcmltZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Experiment/FindExperimentsForHuman.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpbWVudFxGaW5kRXhwZXJpbWVudHNGb3JIdW1hbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Human/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Human/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Human/Humans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVtYW5cSHVtYW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Killing/FindAlien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lsbGluZ1xGaW5kQWxpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Killing/Killing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lsbGluZ1xLaWxsaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/SpaceShip/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VTaGlwXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/SpaceShip/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VTaGlwXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/SpaceShip/ExperimentsPerShip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VTaGlwXEV4cGVyaW1lbnRzUGVyU2hpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/SpaceShip/FindPeople.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VTaGlwXEZpbmRQZW9wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/SpaceShip/SpaceShips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VTaGlwXFNwYWNlU2hpcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Myroslav/Downloads/Telegram Desktop/BDProject-master/BDProject-master/AlienProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xbt4uqsfw5

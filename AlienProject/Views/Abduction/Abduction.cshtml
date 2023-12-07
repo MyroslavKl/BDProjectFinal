@@ -1,0 +1,112 @@
+﻿@model List<AbductionViewModel>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abduction</title>
+    <style>
+               
+        
+                .container {
+                    padding: 20px;
+                    color: white;
+                }
+        
+               h2 {
+                  color: #21E786; 
+                  font-size: 47px;
+                  font-weight: 800;
+                                   }
+        
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    border-radius: 15px;
+                    margin-top: 20px;
+                }
+        
+                th, td {
+                    border: 1px solid gray;
+                    padding: 10px;
+                    text-align: left;
+                }
+        
+                
+        
+                tr:hover {
+                    background-color: #056235;
+                    transition: ease-in-out;
+                    duration: 500ms;
+                }
+            </style>
+</head>
+<body>
+<div class="container">
+    <h2>Abductions</h2>
+
+    <table class="table text-white">
+        <thead>
+            <tr>
+                <th>Abduction Id</th>
+                <th>Abduction Date</th>
+                <th>Alien Name</th>
+                <th>Alien Birth Date</th>
+                <th>Human Name</th>
+                <th>Human Birth Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.AbductionId</td>
+                    <td>@item.AbductionDate.ToShortDateString()</td>
+                    <td>@item.AlienName</td>
+                    <td>@(item.AlienBirthDate.HasValue ? item.AlienBirthDate.Value.ToShortDateString() : "-")</td>
+                    <td>@item.HumanName</td>
+                    <td>@(item.HumanBirthDate.HasValue ? item.HumanBirthDate.Value.ToShortDateString() : "-")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+   
+   </div>
+</body>
+</html>
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="container">
+    <ul class="text-color">
+        <li>
+            <a class="text-color" asp-action="Find">
+                Find Abducted People
+            </a>
+        </li>
+        <li>
+            <a class="text-color" asp-action="FindAlien">
+                Find Alien
+            </a>
+        </li>
+        <li>
+            <a class="text-color" asp-action="FindKilledAlien">
+                Find Killed Alien By Abducted Human
+            </a>
+        </li>
+        <li>
+            <a class="text-color" asp-action="FindDifferentAliens">
+                Find different Aliens
+            </a>
+        </li>
+        <li>
+            <a class="text-color" asp-action="FindAllHumans">
+                Find All Humans
+            </a>
+        </li>
+        <li>
+            <a class="text-color" asp-action="AbductionsPerMonth">
+                Abductions Per Month
+            </a>
+        </li>
+    </ul>
+    </div>
+}

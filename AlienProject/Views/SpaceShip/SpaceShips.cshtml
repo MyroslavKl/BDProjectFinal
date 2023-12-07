@@ -1,0 +1,98 @@
+﻿@model IEnumerable<AlienProject.Models.Spaceshipp>
+
+@{
+    ViewData["Title"] = "SpaceShips";
+}
+
+<head>
+    <style>
+                   
+            
+                    .container {
+                        padding: 20px;
+                        color: white;
+                    }
+            
+                    h2 {
+                        color: #21E786; 
+                        font-size: 47px;
+                        font-weight: 800;
+                    }
+            
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        border-radius: 15px;
+                        margin-top: 20px;
+                    }
+            
+                    th, td {
+                        border: 1px solid gray;
+                        padding: 10px;
+                        text-align: left;
+                    }
+            
+                    
+            
+                    tr:hover {
+                        background-color: #056235;
+                        transition: ease-in-out;
+                        duration: 500ms;
+                    }
+                </style>
+</head>
+
+<div class="container">
+<h2>SpaceShips</h2>
+
+<table class="table text-white">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SpaceshipId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SpaceshipName)
+        </th>
+        @if (User.Identity.IsAuthenticated)
+                   {
+                       <td>
+                           
+                       </td>
+                   }
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpaceshipId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpaceshipName)
+            </td>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <td>
+                    
+                    <a class="text-color-white" asp-action="Edit" asp-route-id="@item.SpaceshipId">Edit</a>
+                </td>
+            }
+        </tr>
+    }
+    </tbody>
+</table>
+</div>
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="container">
+        
+   
+    
+        <ul><li>
+            <a class="text-color" asp-action="Add">Add</a></li>
+            <li><a class="text-color" asp-action="FindPeople">Find People</a></li>
+            <li><a class="text-color" asp-action="ExperimentsPerShip">Find Experiment</a></li>
+        </ul>
+     </div>
+}

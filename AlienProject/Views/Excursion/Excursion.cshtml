@@ -1,0 +1,80 @@
+﻿@model List<ExcursionViewModel>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excursion</title>
+    <style>
+           
+    
+            .container {
+                padding: 20px;
+            }
+    
+           h2 {
+               color: #21E786; 
+               font-size: 47px;
+               font-weight: 800;
+               }
+    
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                border-radius: 15px;
+                margin-top: 20px;
+            }
+    
+            th, td {
+                border: 1px solid gray;
+                padding: 10px;
+                text-align: left;
+            }
+    
+            
+    
+            tr:hover {
+                background-color: #056235;
+                transition: ease-in-out;
+                duration: 500ms;
+            }
+        </style>
+</head>
+<body>
+<div class="container">
+    <h2 >Excursions</h2>
+
+    <table class="table text-white">
+        <thead>
+        <tr>
+            <th>Excursion Id</th>
+            <th>Excursion Date</th>
+            <th>Alien Name</th>
+            <th>Alien Birth Date</th>
+            <th>Human Name</th>
+            <th>Human Birth Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ExcursionId</td>
+                <td>@item.ExcursionDate.ToShortDateString()</td>
+                <td>@item.AlienName</td>
+                <td>@(item.AlienBirthDate.HasValue ? item.AlienBirthDate.Value.ToShortDateString() : "-")</td>
+                <td>@item.HumanName</td>
+                <td>@(item.HumanBirthDate.HasValue ? item.HumanBirthDate.Value.ToShortDateString() : "-")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+        
+    
+</div>
+</body>
+</html>
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="container">  <ul><li><a class="text-color" asp-action="FindExcursionsForAlien">Find Excursions For Aliens</a></li></ul> </div>
+}
+

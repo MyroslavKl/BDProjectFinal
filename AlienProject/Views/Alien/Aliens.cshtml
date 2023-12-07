@@ -1,0 +1,89 @@
+﻿@model IEnumerable<AlienProject.Models.Alien>
+
+@{
+    ViewData["Title"] = "Aliens";
+}
+<head>
+
+    
+    <style>
+                    .container {
+                        padding: 20px;
+                    }
+            
+                   h2 {
+                       color: #21E786; 
+                       font-size: 47px;
+                       font-weight: 800;
+                       }
+            
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        border-radius: 15px;
+                        margin-top: 20px;
+                    }
+            
+                    th, td {
+                        border: 1px solid gray;
+                        padding: 10px;
+                        text-align: left;
+                    }
+            
+                    
+            
+                    tr:hover {
+                        background-color: #056235;
+                        transition: ease-in-out;
+                        duration: 500ms;
+                    }
+                </style>
+</head>
+<div class="container">
+<h2>Aliens</h2>
+
+<table class="table text-white">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AlienId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr>
+                <td>@item.AlienId</td>
+                <td>@item.Name</td>
+                <td>@(item.BirthDate.HasValue ? item.BirthDate.Value.ToShortDateString() : "-")</td>
+                <td>@item.Email</td>
+                <td>
+                    <a class="text-color-white" asp-action="Edit" asp-route-id="@item.AlienId">Edit</a>
+                </td>
+            </tr>
+}
+    </tbody>
+</table>
+
+    <ul>
+        <li>
+            <a class="text-color" asp-action="Add">
+                        Add
+                    </a>
+        </li>
+        
+        <li>
+            <a class="text-color" asp-action="FindCommon">Find Common Experiments and Excursions</a>
+        </li>
+    </ul>
+</div>

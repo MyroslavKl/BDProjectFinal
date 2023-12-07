@@ -1,0 +1,36 @@
+﻿@model AlienProject.Models.Spaceshipp
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container pt-5">
+<h1 class="text-center">Edit</h1>
+
+<h4 class="text-center">Spaceshipp</h4>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SpaceshipId" />
+            <div class="form-group">
+                <label asp-for="SpaceshipName" class="control-label"></label>
+                <input asp-for="SpaceshipName" class="form-control" />
+                <span asp-validation-for="SpaceshipName" class="text-danger"></span>
+            </div>
+            <div class="form-group d-flex justify-content-center align-items-center pt-3">
+                <input type="submit" value="Save" class="btn btn-success bg-color m-1" />
+                <a class="btn btn-secondary m-1" asp-action="SpaceShips">Back to List</a>
+                
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+</div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,63 @@
+html {
+  font-size: 14px;
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+}
+
+.text-color{
+  color: #21E786;
+}
+.text-color-white {
+  color: white;
+}
+.text-color-white:hover{
+  color: white;
+}
+.text-color:hover{
+  color: #0eb362;
+}
+.bg-color{
+  background-color: #21E786;
+}
+.custom-bold{
+  font-weight: 900;
+}
+.font-size-heading{
+  font-size: 60px;
+}
+.bogomol{
+  height: 80px;
+  width: 80px;
+  margin-bottom: 40px;
+}
+
+.alien{
+  height: 580px;
+  width: 580px;
+  box-shadow: inset 10px 10px 10px 10px #000;
+}
+
+.pt-250px{
+  padding-top: 250px;
+}
+.pb-250px{
+  padding-bottom: 250px;
+  
+}
+.myroslav {
+  font-size: 40px;
+}
